@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+      #wrap {
+        width: 800px;
+        margin: 0 auto;
+      }
+
+      #header {
+        border-bottom: 1px solid #cccccc;
+      }
+
+      #content p:first-child::selection {
+        background-color: blue;
+        color: yellow;
+      }
+
+      #history2::first-letter,
+      #history1::first-letter {
+        font-size: 2em;
+      }
+
+      #history2::first-line,
+      #history1::first-line {
+        font-weight: bold;
+        color: #2160d1;
+      }
+
+      #footer ul {
+        overflow: hidden;
+        border: 2px solid #cccccc;
+      }
+
+      #footer ul li {
+        list-style: none;
+        float: left;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrap">
+      <div id="header">
+        <h1>Header</h1>
+      </div>
+
+      <div id="content">
+        <p>
+          Some Paragraph
+        </p>
+        <p id="history2">2014 04 09<br />Big first letter, blue first line</p>
+      </div>
+
+      <div id="wrap">
+        <div id="content">
+          <ul>
+            <li><a href="http://www.yahoo.com" target="_blank">Yahoo</a></li>
+            <li class="fa">
+              <a href="http://www.google.com" target="_blank">Google</a>
+            </li>
+          </ul>
+        </div>
+
+        <div id="footer">
+          <ul>
+            <li>
+              <img src="http://www.sba.seoul.kr/kr/images/footer/f_logo.png" />
+            </li>
+            <li>
+              <img
+                src="http://www.sba.seoul.kr/kr/images/footer/copyright.png"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
