@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Facebook Clone</title>
-    <link rel="stylesheet" href="#" />
+    <link rel="stylesheet" href="css/styles.css" />
     <script
       src="https://kit.fontawesome.com/54015cce3a.js"
       crossorigin="anonymous"
@@ -12,31 +12,28 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__blue-bar blue-bar">
-        <div class="blue-bar__column">
-          <div class="blue-bar__logo">
-            <a href="#" title="Facebook 홈으로 이동">
-              <img src="img/facebook-logo.png" alt="facebook logo" />
-            </a>
-          </div>
-        </div>
-        <div class="blue-bar__column">
-          <form action="#" class="header__login login-form">
-            <div class="login-form__column">
-              <label for="email">이메일 또는 휴대폰</label>
-              <input type="email" class="login-form__input" name="email" />
-            </div>
-            <div class="login-form__column">
-              <label for="email">비밀번호</label>
-              <input type="password" class="login-form__input" name="pass" />
-              <a href="#">계정을 잊으셨나요?</a>
-            </div>
-            <input class="login-btn" value="로그인" type="submit" />
-          </form>
+      <div class="header__column">
+        <div class="header__logo">
+          <a href="#" title="Facebook 홈으로 이동">
+            <img src="img/facebook-logo.png" alt="facebook logo" />
+          </a>
         </div>
       </div>
+      <div class="header__column">
+        <form action="#" class="header__login login-form">
+          <div class="login-form__column">
+            <label for="email">이메일 또는 휴대폰</label>
+            <input type="email" class="login-form__input" name="email" />
+          </div>
+          <div class="login-form__column">
+            <label for="email">비밀번호</label>
+            <input type="password" class="login-form__input" name="pass" />
+            <a href="#">계정을 잊으셨나요?</a>
+          </div>
+          <input class="login-btn" value="로그인" type="submit" />
+        </form>
+      </div>
     </header>
-
     <main class="main">
       <div class="main__column">
         <div class="main__introduction">
@@ -490,7 +487,7 @@
             <a href="#" title="고객 센터를 방문하세요.">고객 센터</a>
           </li>
         </ul>
-        <div class="mvl copyright">
+        <div class="copyright">
           <div><span> Facebook © 2020</span></div>
         </div>
       </div>

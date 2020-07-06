@@ -1,0 +1,42 @@
+.header {
+  background-color: #3a5998;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header img {
+  margin: 18px;
+  width: 170px;
+}
+
+.login-form {
+  display: flex;
+  font-size: 14px;
+  color: white;
+}
+
+.login-form__column {
+  margin-right: 14px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form__column .login-form__input {
+  margin: 8px 0;
+  padding: 4px;
+}
+
+.login-form__column a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.login-form .login-btn {
+  position: relative;
+  top: 37px;
+  height: 0%;
+  padding: 5px;
+  border: 0.5px rgba(0, 0, 0, 0.4) solid;
+  color: white;
+  background-color: #3864b5;
+}
