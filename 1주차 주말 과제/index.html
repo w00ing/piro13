@@ -50,8 +50,10 @@
       </div>
       <div class="main__column">
         <div class="main__registration registration">
-          <span class="registration__text--lg">가입하기</span>
-          <span class="registration__text">빠르고 쉽습니다.</span>
+          <div class="registration__text">
+            <span class="text--lg">가입하기</span>
+            <span class="text--small">빠르고 쉽습니다.</span>
+          </div>
           <form action="#" class="registration__form form">
             <div class="form__personal-info personal-info">
               <div class="personal-info__fullname-field">
@@ -268,8 +270,8 @@
             <div class="form__gender gender">
               <span class="gender__text">성별</span>
               <div class="gender__wrapper">
-                <span>
-                  <span class="gender__selection">
+                <span class="gender__selections">
+                  <span>
                     <input
                       type="radio"
                       class="selection"
@@ -279,7 +281,7 @@
                     />
                     <label class="gender__label" for="female">여성</label>
                   </span>
-                  <span class="gender__selection">
+                  <span>
                     <input
                       type="radio"
                       class="selection"
@@ -289,8 +291,8 @@
                     />
                     <label class="gender__label" for="male">남성</label>
                   </span>
-                  <span class="gender__selection"
-                    ><input
+                  <span>
+                    <input
                       type="radio"
                       class="selection"
                       name="sex"
@@ -306,10 +308,10 @@
             <div class="form__terms-of-aggrement terms">
               <p class="terms__text">
                 가입하기 버튼을 클릭하면 Facebook의
-                <a href="#" id="terms-link" rel="nofollow">약관</a>,
-                <a href="#" id="privacy-link" rel="nofollow">데이터 정책</a>
+                <a href="#" class="terms__link" rel="nofollow">약관</a>,
+                <a href="#" class="terms__link" rel="nofollow">데이터 정책</a>
                 및
-                <a href="#" id="cookie-use-link" rel="nofollow">쿠키 정책</a>에
+                <a href="#" class="terms__link" rel="nofollow">쿠키 정책</a>에
                 동의하게 됩니다. Facebook으로부터 SMS 알림을 받을 수 있으며
                 알림은 언제든지 옵트 아웃할 수 있습니다.
               </p>
