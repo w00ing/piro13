@@ -1,0 +1,22 @@
+.footer {
+  margin-top: 40px;
+  padding: 0px 230px;
+}
+.footer ul {
+  display: flex;
+  font-size: 12px;
+  flex-wrap: wrap;
+}
+
+.languages__list .language__item,
+.other-services li {
+  color: #5c76ab;
+  margin-top: 8px;
+  margin-right: 20px;
+}
+
+.copyright {
+  margin-top: 30px;
+  color: #737373;
+  font-size: 11px;
+}

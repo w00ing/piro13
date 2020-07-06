@@ -50,7 +50,8 @@
 
 .phone-number-or-email,
 .new-password {
-  width: 100%;
+  width: 364px;
+  display: block;
 }
 
 .birthday,
