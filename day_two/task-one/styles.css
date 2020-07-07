@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-bar {
+  position: fixed;
+  background-color: white;
+}
+
+.nav-bar__item {
+  width: 20vw;
+  display: inline-block;
+  margin-right: -4px;
+  padding: 15px 0;
+  text-align: center;
+  border: 1px black solid;
+}
+
+.main {
+  width: 68vw;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.main__section {
+  border: 1px solid black;
+  border-top: none;
+  padding: 30px 30px 10px 30px;
+}
+
+img {
+  max-width: 100%;
+  margin-top: 20px;
+}
